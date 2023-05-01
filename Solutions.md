@@ -10,8 +10,8 @@
 
 ```sh
 # clone repository & change into project dir
-git clone git@gitlab.com:devops-bootcamp3/java-gradle-app.git
-cd java-gradle-app
+git clone git@gitlab.com:twn-devops-bootcamp/2023/04-build-tools/build-tools-exercises.git
+cd build-tools-exercises
 
 # remove remote repo reference and create your own local repository
 rm -rf .git
@@ -36,7 +36,7 @@ git push -u origin master
 **steps**
 
 ```sh
-./gradlew build
+gradle build
 
 ```
 
@@ -54,7 +54,7 @@ git push -u origin master
 boolean result = myApp.getCondition(true); 
 
 # run tests
-./gradlew test
+gradle test
 
 ```
 
@@ -68,8 +68,8 @@ boolean result = myApp.getCondition(true);
 
 **steps:**
 ```sh
-./gradlew clean 
-./gradlew build
+gradle clean 
+gradle build
 
 ```
 
@@ -108,7 +108,7 @@ try {
 }
 
 # rebuild the jar file 
-./gradlew build
+gradle build
 
 # run application with ANY 2 parameters
 java -jar bootcamp-java-project-1.0-SNAPSHOT.jar myname mylastname
