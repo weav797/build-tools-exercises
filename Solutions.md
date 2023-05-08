@@ -10,7 +10,7 @@
 
 ```sh
 # clone repository & change into project dir
-git clone git@gitlab.com:twn-devops-bootcamp/2023/04-build-tools/build-tools-exercises.git
+git clone git@gitlab.com:twn-devops-bootcamp/latest/04-build-tools/build-tools-exercises.git
 cd build-tools-exercises
 
 # remove remote repo reference and create your own local repository
