@@ -39,6 +39,17 @@ To github.com:weav797/build-tools-exercises.git
 Orion@LAPTOP-7SLE0BV4 MINGW64 /d/projects/github
 $ **rm -rf build-tools.exercises.git**
 
+Orion@LAPTOP-7SLE0BV4 MINGW64 /d/projects/github
+$ **git clone git@github.com:weav797/build-tools-exercises.git**
+Cloning into 'build-tools-exercises'...
+remote: Enumerating objects: 276, done.
+remote: Counting objects: 100% (276/276), done.
+remote: Compressing objects: 100% (123/123), done.
+remote: Total 276 (delta 72), reused 276 (delta 72), pack-reused 0 (from 0)
+Receiving objects: 100% (276/276), 15.58 MiB | 13.43 MiB/s, done.
+Resolving deltas: 100% (72/72), done.
+
+
 ```
 **Note:** I chose not to create a GitLab account since I already have most of my own repositories in GitHub, which is why you are seeing me clone from GitLab first, then creating/cloning the repo in GitHub.<br /><br />
 
